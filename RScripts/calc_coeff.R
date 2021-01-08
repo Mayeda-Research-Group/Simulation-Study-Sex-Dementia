@@ -1,3 +1,5 @@
+#This function calculated coefficients for the cognitive trajectories model 
+
 calc_coeff <- function(obs){
   a0 <- b00 + obs[, "z_0i"] + b01*obs[, "female"] + b02*obs[, "age0_c50"] +
     b03*obs[, "U"] + obs[, "eps_i"]
