@@ -1,3 +1,5 @@
+#This function computes cognitive function for person i at time j
+
 compute_Ci <- function(obs){
   Ci <- matrix(nrow = nrow(obs), ncol = length(visit_times))
   for(i in 1:ncol(Ci)){
