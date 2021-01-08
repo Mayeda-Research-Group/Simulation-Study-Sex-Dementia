@@ -1,3 +1,5 @@
+#This function computes the value of Ci at the time of death
+
 last_Ci <- function(obs){
   last_Ci <- vector(length = ncol(obs))
   
