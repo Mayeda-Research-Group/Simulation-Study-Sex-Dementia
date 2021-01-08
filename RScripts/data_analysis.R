@@ -1,3 +1,5 @@
+#This is the main simulation function that generates and analyzes the data
+
 #---- Package loading, options ----
 if (!require("pacman")) 
   install.packages("pacman", repos='http://cran.us.r-project.org')
