@@ -1,3 +1,7 @@
+#This function compares survival time and time to dementia. 
+#  If time to dementia exceeds survival time, then participant
+#  does not "get" dementia
+
 compare_survtime_timetodem <- function(obs_matrix){
   indices = obs_matrix["survtime", ] < obs_matrix["timetodem", ]
   if(sum(indices) > 0){
