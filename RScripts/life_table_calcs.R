@@ -1,3 +1,5 @@
+#This script performs all life table calculations
+
 #---- Package loading, options, seed ----
 if (!require("pacman")) 
   install.packages("pacman", repos='http://cran.us.r-project.org')
