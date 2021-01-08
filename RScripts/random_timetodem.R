@@ -1,4 +1,5 @@
-#---- Model for Survival Time ----
+#This function calculates time to random/shock dementia onset
+
 random_timetodem <- function(obs_matrix){
   #Calculate random time to dementia for each interval
   random_timetodem_ij <- matrix(ncol = ncol(obs_matrix), 
