@@ -1,3 +1,5 @@
+#This function calculates conditional probabilities
+
 cond_prob <- function(x){
   probs <- vector(length = length(x))
   for(i in 2:length(probs)){
