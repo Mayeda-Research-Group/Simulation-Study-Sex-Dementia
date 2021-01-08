@@ -1,3 +1,5 @@
+#This function computes the hazard
+
 haz <- function(age, logprobs){
   HZ <- vector(length = length(age))
   for(i in 2:length(HZ)){
