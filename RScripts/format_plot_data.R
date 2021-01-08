@@ -1,3 +1,5 @@
+#This function formats plot data
+
 format_plot_data <- function(sample, scenario){
   plot_data <- sample %>% 
     dplyr::select(c("female", "U", "death0", 
