@@ -1,5 +1,5 @@
 #***************************************************************
-# Performs a search for 
+# Performs a search for parameters of Ci model
 #***************************************************************
 
 #---- Package Loading and Options ----
