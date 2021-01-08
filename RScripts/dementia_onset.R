@@ -1,4 +1,4 @@
-#---- Function for computing dementia onset ----
+#---- Function for computing time to dementia onset ----
 dem_onset <- function(obs_matrix, dem_cut){
   
   timetodem <- vector(length = ncol(obs_matrix))
