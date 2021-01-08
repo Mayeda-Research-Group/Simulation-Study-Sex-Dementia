@@ -4,7 +4,8 @@
 # June 24, 2019 (pg 49-52)
 # Birth cohort: 1919 - 1921
 # 
-# Note: We calibrate to data for Whites in the simulation
+# Note: We calibrate to data for non-Latino whites in the 
+#   simulation to align with race/ethnicity of ACT cohort 
 #***************************************************************
 
 #---- Package Loading and Options ----
