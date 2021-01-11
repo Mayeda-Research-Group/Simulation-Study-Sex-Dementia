@@ -1,5 +1,5 @@
 #*******************************************************************************
-# Simulation Senario C2
+# Simulation Senario C2 input parameters
 # 99.1% cumulative incidence of mortality
 # Exposure = female gender
 # Based on US lifetables, sample is 51% F / 49% M at age 50
