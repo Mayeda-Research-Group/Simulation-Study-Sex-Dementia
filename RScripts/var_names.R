@@ -1,3 +1,5 @@
+#This script creates all the variables names used throughout the simulation
+
 #---- Package loading, options, seed ----
 if (!require("pacman")) 
 install.packages("pacman", repos='http://cran.us.r-project.org')
