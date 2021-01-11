@@ -1,3 +1,5 @@
+#This function pulls results for ages 65+ (ages of interest)
+
 results_65_plus <- function(results){
   results %<>% 
     dplyr::select(-one_of(variable_names$logIRR_varnames[1:3])) %>%
