@@ -1,3 +1,6 @@
+#This function censors values of the cognitive trajectory beyond the 
+#    survival time
+
 survival_censor <- function(obs){
   max_Ci = length(variable_names$Ci_varnames)
   
