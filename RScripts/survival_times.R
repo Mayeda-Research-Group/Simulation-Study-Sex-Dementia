@@ -1,4 +1,5 @@
-#---- Model for Survival Time ----
+#This function implements the model for survival times
+
 survival <- function(obs_matrix){
   #Calculate survival times for each interval
   Sij <- matrix(ncol = ncol(obs_matrix), nrow = (length(visit_times) - 1))
