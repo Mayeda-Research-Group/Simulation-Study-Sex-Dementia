@@ -1,3 +1,6 @@
+#This script runs the simulation a specified number of times and outputs 
+#    a results .csv with one line per simulation run
+
 #---- Seed setting + package loading ----
 if (!require("pacman")) 
   install.packages("pacman", repos='http://cran.us.r-project.org')
